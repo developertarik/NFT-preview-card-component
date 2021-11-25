@@ -1,0 +1,94 @@
+body{
+    background-color: hsl(217,54%,11%);
+}
+.main{
+    background-color: hsl(216,50%,16%);
+    width:300px;
+    height: 500px;
+    margin:auto;
+    margin-top: 100px;
+    border-radius: 20px;
+}
+.Eq{
+    color:white;
+    font-size: 20px;
+    padding-left:15px;
+    font-family: "Outfit",Sans-serif;
+}
+.Eq:hover{
+    color:hsl(178,100%,50%);
+}
+.image-equilibrium{
+    width:200px;
+    height:200px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-left:45px;
+}
+
+.main .view{
+    display: none;
+    z-index:1;
+
+}
+.view{
+    position: relative;
+    bottom:70px;
+    right:125px;
+}
+.main:hover .view{
+    display: inline;
+}
+
+
+
+.description{
+    color:hsl(215,32%,57%);
+    font-size:large;
+    margin-left: 15px;
+    font-family: "Outfit",sans-serif;
+}
+.price{
+    margin-left:10px;
+    color: hsl(178,100%,50%)
+}
+.eth{
+    position: relative;
+    right:5px;
+}
+.day{
+    position:relative;
+    left:200px;
+    bottom:42px;
+    color:hsl(215, 32%, 57%);
+    font-family: "Outfit",sans-serif ;
+
+}
+hr{
+    position: relative;
+    bottom: 50px;
+    border: 1px solid hsl(215,32%,27%);
+}
+.Creator{
+    position:relative;
+    bottom:50px;
+    color: hsl(215,32%,57%);
+    font-family: "Outfit",sans-serif;
+    padding-left:20px;
+}
+.avatar{
+    width:40px;
+    height:40px;
+    position: relative;
+    right: 10px;
+    top:10px;
+    
+}
+
+.jules{
+    color:white;
+}
+.jules:hover{
+    color:hsl(178,100%,50%);
+}
+
