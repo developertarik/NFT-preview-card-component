@@ -1,5 +1,6 @@
 body{
     background-color: hsl(217,54%,11%);
+    padding-top:300px;
 }
 .main{
     background-color: hsl(216,50%,16%);
